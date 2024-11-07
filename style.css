@@ -1,0 +1,101 @@
+body{
+  margin: 0;
+  font-family: "Merriweather", serif;
+ 
+}
+.container{
+    display: inline-block;
+    width: 60%;
+  
+    margin-left: 15%;
+  margin-top: 100px;
+
+  
+}
+h1{
+  margin: 0;
+}
+
+#title{
+  background-color: rgb(209, 235, 215);
+  margin: 0;
+  padding: 0;
+}
+.info{
+   float: right;
+   font-size: 3.625rem;
+   margin-top: 150px;
+   
+}
+.photo{
+  float: left;
+    
+}
+#skills{
+    
+    margin: 100px 150px;
+}
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 100%;
+    gap: 45px;
+    margin-left: 50px;
+}
+h2{
+  color:rgb(130, 207, 149) ;
+  font-size: 3rem;
+  font-weight: normal;
+  text-align: center;
+}
+.btn{
+  background-color: rgb(130, 207, 149);
+  border-radius: 8px;
+  color: white;
+  font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+ 
+}
+.contactme{
+  display: block;
+  text-align: center;
+  
+}
+.contact-msg{
+  width: 40%;
+    margin: 40px auto 60px;
+}
+p{
+  line-height: 2;
+  font-size: 20px;
+ 
+}
+.footer{
+  background-color:rgb(209, 235, 215);
+    padding: 50px 0 20px;
+    margin-top: 100px;
+    text-align: center;
+    height: 100px;
+    padding-top: 100px;
+}
+.footer-link{
+  text-decoration: none;
+  font-size: 25px;
+  margin: 10px 20px;
+  color:rgb(130, 207, 149);
+  
+
+}
+
+@media (max-width: 668px) {
+  .projects{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    width: 100%;
+    gap: 40px;
+}
+  
+}
